@@ -25,7 +25,7 @@ def kilometreden_mile():
 	kilometre = input("Kaç kilometre ? : ")
 	print star
 	formul = 1.609344
-	mil = kilometre * formul
+	mil = kilometre / formul
 	print("%0.3f kilometre %0.3f mile eşittir." %(kilometre,mil))
 	print star
 
@@ -35,7 +35,7 @@ def milden_kilometreye():
 	print star
 	formul = 1.609344
 	mil = kilometre * formul
-	print("%0.3f kilometre %0.3f mile eşittir." %(kilometre,mil))
+	print("%0.3f mil %0.3f kilometreye eşittir." %(kilometre,mil))
 	print star
 
 print star
